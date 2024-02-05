@@ -1,2 +1,2 @@
 # apna-college-demo
-Authoe-Rabbia
+Author-Rabbia
