@@ -247,11 +247,20 @@
 
                 // practices Q
                 
-function vowels(str){
-        let count=0;
-        for(let char of str){
-                if(char==="a" || char==="a" || char==="e" || char==="i" || char==="o" || char==="u" )
-       {count++}
-        }
-       return count; 
-}
+// function vowels(str){
+//         let count=0;
+//         for(let char of str){
+//                 if(char==="a" || char==="a" || char==="e" || char==="i" || char==="o" || char==="u" )
+//        {count++}
+//         }
+//        return count; 
+// }
+
+
+        //  for each loop array
+
+let num=[18,98,90]
+num.forEach((num)=>{
+        console.log(num**num);
+})
+
