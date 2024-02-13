@@ -259,8 +259,24 @@
 
         //  for each loop array
 
-let num=[18,98,90]
-num.forEach((num)=>{
-        console.log(num**num);
-})
+// let num=[18,98,90]
+// num.forEach((num)=>{
+//         console.log(num**num)
+// })
 
+
+        //    Map
+
+// let num = [34,80,90]
+// let newArray =num.map((val)=>{
+//         return(val*3)
+// });
+// console.log(newArray)
+
+        // reduce
+
+let  num=[1,2,3,4,8,9];
+let output=num.reduce((res , curr)=>{
+        return res + curr
+});
+console.log(output);
