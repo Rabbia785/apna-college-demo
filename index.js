@@ -275,8 +275,17 @@
 
         // reduce
 
-let  num=[1,2,3,4,8,9];
-let output=num.reduce((res , curr)=>{
-        return res + curr
+// let  num=[1,2,3,4,8,9];
+// let output=num.reduce((res , curr)=>{
+//         return res + curr
+// });
+// console.log(output);
+
+  
+        //  Q practice
+
+let num=[45,90,99,98,76];
+let output=num.filter((val)=>{
+        return val > 90
 });
 console.log(output);
